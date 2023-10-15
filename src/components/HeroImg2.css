@@ -1,0 +1,49 @@
+.hero-img{
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    height: 80vh;
+    position: relative;
+  
+    /* background-image: url("https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+    background-position: center; */
+}
+
+/* .hero-img::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .4;
+} */
+
+
+
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    
+}
+
+.hero-img h1{
+font-size: 2.4rem;
+
+}
+.hero-img p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+@media screen and (max-width:640px){
+    .hero-img h1{
+        font-size: 2rem;
+        
+        } 
+}
