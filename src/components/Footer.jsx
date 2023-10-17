@@ -27,7 +27,7 @@ function Footer() {
           <div className='right'>
             <h4>Intern at LuminarTechnolab, Kochi</h4>
             <div className='social'>
-            <FaLinkedin size={30}style={{color:"#fff",marginRight:"1rem"}} />
+            <FaLinkedin to={} size={30}style={{color:"#fff",marginRight:"1rem"}} />
             <FaGithub size={30}style={{color:"#fff",marginRight:"1rem"}} />
             </div>
           </div>
