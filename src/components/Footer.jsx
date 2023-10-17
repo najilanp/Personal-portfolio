@@ -1,6 +1,8 @@
 import './Footer.css'
 import React from 'react'
 import {FaHome,FaPhone, FaMailBulk, FaLinkedin, FaGithub} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
+
 
 function Footer() {
   return (
@@ -27,8 +29,8 @@ function Footer() {
           <div className='right'>
             <h4>Intern at LuminarTechnolab, Kochi</h4>
             <div className='social'>
-            <FaLinkedin to={} size={30}style={{color:"#fff",marginRight:"1rem"}} />
-            <FaGithub size={30}style={{color:"#fff",marginRight:"1rem"}} />
+            <Link target='_blank'><FaLinkedin   size={30}style={{color:"#fff",marginRight:"1rem"}} /></Link>      
+           <Link to={"https://github.com/najilanp"} target='_blank'><FaGithub  size={30}style={{color:"#fff",marginRight:"1rem"}} /></Link> 
             </div>
           </div>
         </div>
